@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://i.imgur.com/ieuigWe.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-box {
+  background: rgba(0, 0, 0, 0.4); /* semi-transparent glass */
+  border: 2px solid #fff;
+  border-radius: 15px;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px black;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+}
+
+input, select, textarea {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid #fff;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #eee;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+}
+
+button {
+  background: linear-gradient(135deg, #ff00cc, #3333ff);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #ff00cc;
+}
+
+button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px #ff00cc;
+}
